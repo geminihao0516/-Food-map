@@ -1,0 +1,22 @@
+{
+  "name": "美食雷達 - Food Radar",
+  "short_name": "美食雷達",
+  "description": "智慧美食搜尋工具，幫你快速找到附近好吃的餐廳！中泰雙語支援。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#ff6b6b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🍱</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle", "utilities"],
+  "lang": "zh-TW",
+  "dir": "auto",
+  "screenshots": []
+}

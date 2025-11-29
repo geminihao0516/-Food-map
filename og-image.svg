@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- 背景漸層 -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#grad1)"/>
+
+  <!-- 裝飾圓點 -->
+  <circle cx="100" cy="100" r="80" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="1100" cy="530" r="100" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="950" cy="100" r="60" fill="rgba(255,255,255,0.15)"/>
+
+  <!-- 主標題 -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">
+    美食雷達 🍱
+  </text>
+
+  <!-- 泰文標題 -->
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="60" fill="rgba(255,255,255,0.9)" text-anchor="middle">
+    เรดาร์อาหาร
+  </text>
+
+  <!-- 副標題 -->
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="40" fill="rgba(255,255,255,0.85)" text-anchor="middle">
+    Google Maps 智慧美食搜尋工具
+  </text>
+
+  <!-- 特色標籤 -->
+  <g transform="translate(200, 420)">
+    <!-- 標籤 1 -->
+    <rect x="0" y="0" width="180" height="60" rx="30" fill="rgba(255,255,255,0.9)"/>
+    <text x="90" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ff6b6b" text-anchor="middle">
+      中泰雙語
+    </text>
+  </g>
+
+  <g transform="translate(420, 420)">
+    <!-- 標籤 2 -->
+    <rect x="0" y="0" width="160" height="60" rx="30" fill="rgba(255,255,255,0.9)"/>
+    <text x="80" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#4ecdc4" text-anchor="middle">
+      23 種類型
+    </text>
+  </g>
+
+  <g transform="translate(620, 420)">
+    <!-- 標籤 3 -->
+    <rect x="0" y="0" width="160" height="60" rx="30" fill="rgba(255,255,255,0.9)"/>
+    <text x="80" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#e67e22" text-anchor="middle">
+      GPS 定位
+    </text>
+  </g>
+
+  <g transform="translate(820, 420)">
+    <!-- 標籤 4 -->
+    <rect x="0" y="0" width="160" height="60" rx="30" fill="rgba(255,255,255,0.9)"/>
+    <text x="80" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#9b59b6" text-anchor="middle">
+      隨機選擇
+    </text>
+  </g>
+
+  <!-- 底部文字 -->
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="28" fill="rgba(255,255,255,0.8)" text-anchor="middle">
+    快速找到附近好吃的餐廳！
+  </text>
+</svg>
